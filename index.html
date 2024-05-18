@@ -3,21 +3,87 @@
     <head>
         <meta charset="UTF-8"> 
         <title> Rahul Umbarkar - Profile </title>
+        <style>
+            #first{
+                height:auto;
+                width:100%;
+                border: 2px solid black;
+                padding: 2px;
+                margin:2px;
+            }
+            #second{
+                height:50px;
+                width:100%;
+                background-color: darkblue;
+                color: white;
+                text-align: center;
+                padding: 2px;
+                vertical-align:auto;
+                border:5px solid lightblue;
+            }
+            #third{
+                height:230px;
+                width:367px;
+                background-color: white;
+                float:left;
+                margin: 10px;
+                border:2px solid black;
+            }
+            #fifth{
+                background-color: rgb(1, 18, 24);
+                
+            }
+            #forth{
+                height:auto;
+                width:auto;
+                text-align: center;
+                background-color: darkblue;
+                color:white;
+                vertical-align: auto;
+                border:2px solid black;
+            }
+#footer{
+    background-color: aqua;
+    border:1px solid black;
+    height: 20px;
+    width:100%;
+    margin: 5px;
+    padding: 1px;
+    float: left;
+
+}
+#footer1{
+    text-align: left;
+    float:left;
+}
+#footer2{
+    text-align: right;
+    float:right;
+}
+        </style>
     </head>
 <body>
-    <header> <h1> Rahul Umbarkar  </h1> <img src="./assets/images/RULNRFLPIC.jpg"></header>
+    <header> <h1 style="background-color: rgb(166, 137, 245); border:2px solid burlywood; text-align: center;"> Rahul Umbarkar  </h1> 
+        <div> <img src="./assets/images/RULNRFLPIC.jpg"></div>
+        <div id="footer"> 
+            <div id="footer1"> <h6>  rumbarkar@gmail.com</div>  
+            <div id="footer2">  </h6>  <h6>+1 678 910 4437 </h6> </div>
+        </div>
+    </header>
   
-    <h6>  rumbarkar@gmail.com              +1 678 910 4437 </h6>
-    
-<hr />
-<p>
+
+
+<div id="first"> <p>
     High energy technology executive dedicated to transforming businesses through deep experience as data evangelist, data architect and a cross-functional collaboration to advance business interests and elevate individual aspirations
 
 </p>
-<hr />
-<h2>
+</div>
+
+<div>
+<h2 id="second">
     Examples of business impact and technical expertise
 </h2>
+</div>
 <p>  <b>Data Platform Consolidation  </b>into DataLake to optimize performance viz-a-vix cost and availability covering over 110 million subscriptions across handheld mobile devices, connected cars and other devices with data sizing over 2PB</h3>
 </p>
 <p>
@@ -29,9 +95,11 @@
     <p>
         <b>Sales and Pre-Sales</b> to win near-shore delivery contracts in Telecom and Finance industries
     </p>
-<h2>
+<div id="second">
+    <h2>
     <b>Career History</b>
 </h2>
+</div>
 <h3> Delivery Lead/Architect Elevance Health(2017 - Present)</h3>
 <ul>
     <li> Value Based Care system (EPHC/PIMS) - End to end delivery from concept to launch. Lead collaboration between multiple business units and IT tems to progressively control/reduce cost of care and reward providers by applying analytics and extracting value through enterprise data </li>
@@ -77,24 +145,36 @@
     <li>Center of Excellence - Provide industry wide data management solutions for Telecon vertical, propose solutions to various clients' initiatives in Telecom and Finance sector.</li>
 
 </ul>
+<div id="second">
 <h3> Technical Skills</h3>
+</div>
 <ul>
     <li>Data Management: Teradata, Oracle, Snowflake, Hive, Vertica, Sybase, SQL Server</li>
     <li>Platform/OS: HP, Solaris, Unix, Linux, Windows, AWS, Microprocessors (Intel8085)</li>
     <li>Tools - ETL (Informatica, DataStage), BI(BusinessObjects, MicrosStrategy, Cognos), Perl, Java, CA ERWin, Embarcadero ER Studio, Sybase PowerDesigner, PL/SQL</li>
     
 </ul>
+<div id="fifth">
+    <div id="third">
+        <div id="forth">
 <h3> Accolades</h3>
+</div>
 <ul>
     <li>Values in Action award - Elevance Health - 2018</li>
     <li>Excellence in Execution award conferred by Wipro Chairman Azim Premji - 2011</li>
 </ul>
-<h3>Education</h3>
+</div>
+<div id="third">
+    <div id="forth">
+    <h3>Education</h3>
+</div>
 <ul>
     <li>College of Engineering, Pune India 1999(Production Engineering)</li>
     <li>Dale Carnegie - High Impact Presentations - 2010</li>
     <li>Leadership in Action Certification - 2017</li>
     <li> Teradata Certified Professional - 2006</li>
 </ul>
+</div>
+</div>
 </body>
 </html>
